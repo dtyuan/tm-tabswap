@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>dtyuan02@comcast.net</string>
+	<key>contactName</key>
+	<string>David Yuan</string>
+	<key>description</key>
+	<string>&lt;a href="http://wiki.github.com/dtyuan/tm-tabswap"&gt;TM Tabswap&lt;/a&gt; Swap tab focus between the current and the last-used tabs by Ctrl-Tab; Ctrl-1 to move an out-of-view tab to be the second from the left.</string>
+	<key>name</key>
+	<string>TM Tabswap</string>
+	<key>ordering</key>
+	<array>
+		<string>68B754F8-23E2-4839-AACC-AC733DE60D71</string>
+		<string>969E1D4A-78A5-4E2F-A112-90241B2561F4</string>
+	</array>
+	<key>uuid</key>
+	<string>59CD8E5D-3CC7-42DE-B7C4-1368BDB929C3</string>
+</dict>
+</plist>

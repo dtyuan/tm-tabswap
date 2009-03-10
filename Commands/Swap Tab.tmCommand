@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+begin; require 'rubygems'; rescue ImportError; end
+require 'appscript'
+include Appscript
+
+# command-t
+app('System Events').keystroke('t', :using =&gt; :command_down)
+# return
+app('System Events').keystroke("\r")
+
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^	</string>
+	<key>name</key>
+	<string>Swap Tab</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>68B754F8-23E2-4839-AACC-AC733DE60D71</string>
+</dict>
+</plist>
